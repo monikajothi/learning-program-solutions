@@ -1,16 +1,20 @@
-package designpatterns.factorymethod;
+package com.example.factorymethod;
 
 public class FactoryMethodTest {
     public static void main(String[] args) {
 
-        NotificationFactory factory;
+        DocumentFactory factory;
 
-        factory = new SMSFactory();
-        Notification sms = factory.createNotification();
-        sms.notifyUser();
+        factory = new WordDocumentFactory();
+        Document word = factory.createDocument();
+        word.open();
 
-        factory = new EmailFactory();
-        Notification email = factory.createNotification();
-        email.notifyUser();
+        factory = new PdfDocumentFactory();
+        Document pdf = factory.createDocument();
+        pdf.open();
+
+        factory = new ExcelDocumentFactory();
+        Document excel = factory.createDocument();
+        excel.open();
     }
 }

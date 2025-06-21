@@ -1,1 +1,1 @@
-package designpatterns.factorymethod;
+package com.example.factorymethod;
