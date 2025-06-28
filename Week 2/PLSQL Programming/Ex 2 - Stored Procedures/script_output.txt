@@ -39,11 +39,6 @@ PL/SQL procedure successfully completed.
 
 Elapsed: 00:00:00.022
 
-ORA-00955: name is already used by an existing object
-
-https://docs.oracle.com/error-help/db/ora-00955/Error at Line: 4 Column: 0 
-
-
 
 Table ACCOUNTS created.
 
@@ -53,18 +48,6 @@ Elapsed: 00:00:00.019
 Table EMPLOYEES created.
 
 Elapsed: 00:00:00.009
-
-ORA-00001: unique constraint (SQL_0DKI2U3LFPTZUJP0Y2ZRY49W2B.SYS_C002449835) violated on table SQL_0DKI2U3LFPTZUJP0Y2ZRY49W2B.CUSTOMERS columns (CUSTOMERID)
-ORA-03301: (ORA-00001 details) row with column values (CUSTOMERID:1) already exists
-
-https://docs.oracle.com/error-help/db/ora-00001/Error at Line: 31 Column: 0 
-
-
-ORA-00001: unique constraint (SQL_0DKI2U3LFPTZUJP0Y2ZRY49W2B.SYS_C002449835) violated on table SQL_0DKI2U3LFPTZUJP0Y2ZRY49W2B.CUSTOMERS columns (CUSTOMERID)
-ORA-03301: (ORA-00001 details) row with column values (CUSTOMERID:2) already exists
-
-https://docs.oracle.com/error-help/db/ora-00001/Error at Line: 34 Column: 0 
-
 
 
 1 row inserted.
