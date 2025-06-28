@@ -1,8 +1,8 @@
 package com.example;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class MyServiceTest {
 
@@ -12,7 +12,6 @@ public class MyServiceTest {
         when(mockApi.getData()).thenReturn("Mock Data");
         MyService service = new MyService(mockApi);
         String result = service.fetchData();
-        System.out.println("Result from fetchData(): " + result);
         assertEquals("Mock Data", result);
     }
 }

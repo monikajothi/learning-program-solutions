@@ -9,6 +9,6 @@ public class MyService {
     }
 
     public String fetchData() {
-        return api.getData();
+        return api.getData(); // real or mocked
     }
 }
